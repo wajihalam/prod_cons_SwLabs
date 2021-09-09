@@ -17,8 +17,8 @@ pthread.h
 -
 unistd.h
 -
-time.h
--
 semaphore.h
+-
+stdint.h
 -
 
