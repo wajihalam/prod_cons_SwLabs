@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "G:/Argentum/prod_cons_SwLabs/main.c" "G:/Argentum/prod_cons_SwLabs/cmake-build-debug/CMakeFiles/prod_cons_SwLabs.dir/main.c.obj"
+  "E:/Wajih's Files/prod_cons_SwLabs/main.c" "E:/Wajih's Files/prod_cons_SwLabs/cmake-build-debug/CMakeFiles/prod_cons_SwLabs.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
