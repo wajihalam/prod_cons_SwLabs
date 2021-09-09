@@ -176,7 +176,7 @@ int main(int argc, char* argv[]) {
            "\t1. Input \"+++MNnn\" to move North of nn steps\n"
            "\t2. Input \"+++MSnn\" to move South of nn steps\n"
            "\t3. Input \"+++MWnn\" to move West of nn steps\n"
-           "\t4. Input \"+++MNnn\" to move North of nn steps\n"
+           "\t4. Input \"+++MEnn\" to move North of nn steps\n"
            "\t5. Input \"+++EXIT\" to EXIT the program\n"
            "where nn is a number in between 0 to 99\n\n");
 
