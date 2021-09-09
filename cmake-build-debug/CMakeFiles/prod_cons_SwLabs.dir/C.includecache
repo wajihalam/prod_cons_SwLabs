@@ -9,8 +9,14 @@
 G:/Argentum/prod_cons_SwLabs/main.c
 stdio.h
 -
-stdint.h
+stdlib.h
 -
-string.h
+pthread.h
+-
+unistd.h
+-
+time.h
+-
+semaphore.h
 -
 
