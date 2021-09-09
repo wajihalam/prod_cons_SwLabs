@@ -7,12 +7,12 @@
 char buffer[BUFFERSIZE];             //Define buffer of a specific size
 
 //Word sequence to move into different direction
-const char word_seq [5] = "+++M";
+const char initial_seq [5] = "+++M";
 const char exit_seq [5] = "+++EXIT";
-const char move_dir_n [1] = "N";
-const char move_dir_s [1] = "S";
-const char move_dir_e [1] = "E";
-const char move_dir_w [1] = "W";
+const char move_dir_north [1] = "N";
+const char move_dir_south [1] = "S";
+const char move_dir_east [1] = "E";
+const char move_dir_west [1] = "W";
 
 //Function to convert array to integer
 int charArrayToInt(char *arr) {
@@ -65,22 +65,22 @@ void main()
     int steps = charArrayToInt(buffer); //Calculating steps from nn
 
     //Comparing with input sequence and generating output accordingly.
-    if ((strncmp(buffer, word_seq, 4) == 0)
-    && ((strncmp((buffer_test+4), move_dir_n, 1) == 0) || (strncmp((buffer_test+4), move_dir_s, 1) == 0) || (strncmp((buffer_test+4), move_dir_e, 1) == 0) || (strncmp((buffer_test+4), move_dir_w, 1) == 0) ))
+    if ((strncmp(buffer, initial_seq, 4) == 0)
+    && ((strncmp((buffer_test+4), move_dir_north, 1) == 0) || (strncmp((buffer_test+4), move_dir_south, 1) == 0) || (strncmp((buffer_test+4), move_dir_east, 1) == 0) || (strncmp((buffer_test+4), move_dir_west, 1) == 0) ))
     {
-        if(strncmp((buffer_test+4), move_dir_n, 1) == 0)
+        if(strncmp((buffer_test+4), move_dir_north, 1) == 0)
         {
             printf("Moved North %d steps\n", steps);
         }
-        else if(strncmp((buffer_test+4), move_dir_s, 1) == 0)
+        else if(strncmp((buffer_test+4), move_dir_south, 1) == 0)
         {
             printf("Moved South %d steps\n", steps);
         }
-        else if(strncmp((buffer_test+4), move_dir_e, 1) == 0)
+        else if(strncmp((buffer_test+4), move_dir_east, 1) == 0)
         {
             printf("Moved East %d steps\n", steps);
         }
-        else if(strncmp((buffer_test+4), move_dir_w, 1) == 0)
+        else if(strncmp((buffer_test+4), move_dir_west, 1) == 0)
         {
             printf("Moved West %d steps\n", steps);
         }
