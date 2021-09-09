@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "G:/Argentum/prod_cons_SwLabs")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "G:/Argentum/prod_cons_SwLabs/cmake-build-debug")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "G:/Argentum/prod_cons_SwLabs/cmake-build-release")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)
